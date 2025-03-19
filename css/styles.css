@@ -28,10 +28,47 @@ body {
 .fw-bolder {color: #FFFFFF;
 }
 
-.tagline {color: white
+.tagline {color: #DFE0F8;
+}
+
+.language-level {
+    background-color: #595FAD; 
+}
+
+.language-progress.bg-warning {
+    background-color: #26295E !important; 
+}
+
+.language-level.border-info {
+    border-color: #252962 !important; 
+}
+
+.language-level h6 {
+    color: #FFFFFF;
+	font-style: oblique;
 }
 
 
+
+
+.fw-bolder {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.h2 {
+  font-family: "Tektur", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+	color:#26295E;
+}
 
 /* Styles for lists in the document */
 
@@ -49,6 +86,21 @@ body {
 
 .biography-details li, .skill-list li {
 	padding-left: 1em;
+}
+
+.biography-item {
+    display: flex;
+    align-items: center; /* vertically aligns logo and text */
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center; /* keeps logos horizontally centered */
+}
+
+.biography-item {
+    padding-top: 0.8rem; /* Adjust as needed */
+	padding-bottom: 0.8rem;
 }
 
 /* Styles for contact icons */
